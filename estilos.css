@@ -1,0 +1,122 @@
+body {
+  background: black;
+}
+
+.container {
+  border-radius: 60px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 140px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.neon {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  font-size: 60px;
+  text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+
+.neon2 {
+  font-family: monospace;
+  letter-spacing: 8px;
+  margin: 0;
+  font-size: 30px;
+  text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+}
+
+.neon3 {
+  font-family: monospace;
+  margin: 0;
+  font-size: 20px;
+  text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;
+}
+
+.flicker1 {
+  animation: parpadear 2s infinite backwards steps(3);
+}
+.flicker2 {
+  animation: parpadear 2.5s infinite backwards steps(4);
+}
+.flicker3 {
+  animation: parpadear 1.5s infinite backwards steps(2);
+}
+
+@keyframes parpadear {
+  to {
+    color: gray;
+    text-shadow: none;
+  }
+}
+
+
+.love {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: red;
+}
+
+.love:before,
+.love:after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: red;
+}
+
+.love {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: red;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+}
+
+.love:before,
+.love:after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+}
+
+.love:before {
+  top: 0;
+  left: -25px;
+}
+
+.love:after {
+  top: -25px;
+  left: 0px;
+}
+
+.love {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  background: red;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+  animation: beating 2s ease infinite;
+}
+
+@keyframes beating {
+  0% {
+  	transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(2);
+  }
+  100% {
+  	transform: rotate(45deg) scale(1);
+  }
+}
