@@ -1,124 +1,131 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="icon" href="sombrero-de-vaquero.png" type="image/png">
-    <title>TQM 🥰💌</title>
-    <script>
-        function frases_alea() {
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="icon" href="sombrero-de-vaquero.png" type="image/png">
+  <title>TQM 🥰💌</title>
+  <link rel="stylesheet" href="./style.css">
 
-            frases = new Array();
-
-            frases[0] = "&#191;Vas a la Luna seguido? <br> Porque yo voy a amarte todos los d\u00edas";
-            frases[1] = "&#191;Segura no eres astronauta? <br> Porque me tienes entre la luna y las estrellas";
-            frases[2] = "Napole\u00f3n con su espada conquist\u00f3 una naci\u00f3n, pero t\u00fa con solo mirar me conquistaste mi coraz\u00f3n";
-            frases[3] = "Si la luna fuera de diamante y el sol de oro,<br> yo ser\u00eda tu fiel amante y t\u00fa mi hermoso tesoro";
-            frases[4] = "Si la luna fuera de diamante y el sol de oro,<br> yo ser\u00eda tu fiel amante y t\u00fa mi hermoso tesoro";
-
-            frases[5] = "Si las personas fueran poes\u00eda, tu sin duda ser\u00edas de mis poemas favoritos";
-            frases[6] = "&#191;Acaso te llamas Am\u00e9rica? O por qu\u00e9 quiero conquistarte cada d\u00eda?";
-            frases[7] = "Si fuera astronauta te dar\u00eda la luna, el sol y todas las estrellas, pero como soy programador, mejor te programo una cita bonita";
-            frases[8] = "Tu sonrisa siempre luce mejor cuando tu boca est\u00e1 a cent\u00edmetros de la m\u00eda";
-            frases[9] = "Desde que conoc\u00ed tus ojos ya no tengo que ver el cielo para ver un par de luceros ";
-
-            frases[10] = "No eres el amor de mi vida, la vida es muy corta para limitar lo que siento por ti, no eres el amor de mi vida por qu\u00e9 mi vida dejo de ser m\u00eda en el momento que te dije te amo";
-            frases[11] = "Tu sabes la diferencia entre un helado y yo, que el helado se derrite por el sol y yo me derrito por ti My love";
-            frases[12] = "Gracias.... gracias por hacer que cada d\u00eda valga la pena y no importa si tan solo hablamos un ratito o quiz\u00e1 todo el d\u00eda, estoy s\u00faper feliz de forma parte de tu vida";
-            frases[13] = "Creo que a\u00fan no existe nada m\u00e1s hermoso que tu cara y el caf\u00e9 de ese par de ojitos de color de miel";
-            frases[14] = "Eres como el universo, infinitamente hermosa y llena de historias por vivir";
-
-            frases[15] = "Eres como el sol, desde que te vi por primera vez, no puedo dejar de pensar en ti. Al igual que el sol, iluminas mi d\u00eda y llenas mi coraz\u00f3n de calidez";
-            frases[16] = "Me gusta la noche, ya que en la oscuridad podemos creer en la luz, y yo creo que t\u00fa eres la luz de mi vida";
-            frases[17] = "Eras, eres y ser\u00e1s la casualidad m\u00e1s bonita que he tenido, aquella persona que vino a demostrarme que el amor es real, que hace mi vida m\u00e1s feliz, y que con solo mirarte iluminas mis d\u00edas m\u00e1s oscuros eres todo lo que alguna vez so\u00f1\u00e9 y m\u00e1s";
-            frases[18] = "Si un d\u00eda olvido lo hermosa que eres, ay\u00fadame a recordarlo con la luz de tu sonrisa y el sabor de tus labios";
-            frases[19] = "Si me dieran una hermosa flor cada vez que pienso en ti, caminar\u00eda en un hermoso jard\u00edn";
-
-            frases[20] = "Mi vida me puedes pasar una foto de tu carita, estoy jugando ajedrez y necesito una reina";
-            frases[21] = "&#191;Que loco no? Que los astronautas tengan que salir al espacio para ver el mundo y yo con solo verte a los ojos veo el universo";
-            frases[22] = "Oye mi vida, tu eres como mi insiclopedia porque <br> EN GEOGRAFIA: Eres mi mundo <br>EN BIOLOG\u00cdA: eres mi Coraz\u00f3n <br>EN QUIMICA: eres mi oxigeno <br>EN MATEM\u00c1TICA: eres mi soluci\u00f3n <br>EN F\u00cdSICA: eres mi gravedad";
-            frases[23] = "Te dir\u00eda bonita noche, pero bonita ya eres y noches son las que quiero pasar a tu lado";
-            frases[24] = "Durante mucho tiempo la humedad se ha preguntado que es la vida, unos dicen que es la felicidad, las experiencias, los prop\u00f3sitos, la autenticidad entre muchas otras cosas m\u00e1s, espero que todas esas personas que se hacen esa pregunta alg\u00fan d\u00eda encuentren su respuesta porque yo cuando te encontr\u00e9 lo tuve claro, tu eres y siempre ser\u00e1s mi vida ";
-
-            frases[25] = "Yo solo estaba buscando una peque\u00f1a cosa en un mundo infinito, pero encontr\u00e9 algo... infinito en un mundo tan peque\u00f1o, te encontr\u00e9 a ti";
-            frases[26] = "El mundo puede tener muchas maravillas, pero t\u00fa eres la maravilla de mi mundo";
-            frases[27] = "Al verte no s\u00e9 si me convierto en poeta o fil\u00f3sofo pues conozco el concepto de belleza, pero en ti descubr\u00ed el origen del concepto";
-            frases[28] = "Mi vida en este mundo hay muchas formas de decirte lo que siento por ti y esta vez te lo dir\u00e9 con qu\u00edmica <br> TElurio: puede afectar el sistema nervioso como cuando te veo, <br> Americio: es muy raro de encontrar como t\u00fa mi vida, <br> Ox\u00edgeno: nos mantiene vivos y as\u00ed es como me siento a tu lado vivo ";
-            frases[29] = "Hablaba de ti como hablo del amor y ahora no puedo hablar del amor sin hablar de ti, tu voz se impregno en mi memoria, se volvi\u00f3 mi canci\u00f3n favorita, tu mirada echo ra\u00edces, en ella mi coraz\u00f3n habita y es que nunca antes hab\u00eda sentido que unos brazos fueran tan bien como los tuyos, nunca hab\u00eda escuchado mi risa sonar como la mas bonita melod\u00eda al ritmo y al comp\u00e1s de cada una de tus sonrisas";
-
-            frases[30] = "Desde que te Vi eres la sensaci\u00f3n m\u00e1s hermosa que un d\u00eda conoc\u00ed, y me sigo enamorado cada vez que pienso en ti, y se, que por m\u00e1s ayeres que haya y por m\u00e1s que se nos pase el tiempo, nunca dejaras de ser la sensaci\u00f3n m\u00e1s hermosa que un d\u00eda conoc\u00ed";
-            frases[31] = "En las noches eres mi estrellita y en los d\u00edas mi solecito, siempre brillando con ese bonito carisma y humor tu logras hacer mi vida m\u00e1s bonita siempre";
-            frases[32] = "Yo so\u00f1aba con tener el mundo entero, pero llegaste t\u00fa y ahora tengo el universo entero";
-            frases[33] = "Eres luz y un lindo amanecer, el motivo por lo que hoy vive mi ser, eres t\u00fa, el aire al respirar y fortuna de saber lo que es amar";
-            frases[34] = "Yo solo necesito tres cosas, el sol para m\u00ed d\u00eda, la luna para la noche y a ti para toda mi vida ";
-
-            frases[35] = "Mi vida si tuviera que cambiar mi vida por un minuto m\u00e1s contigo, ser\u00eda la mejor decisi\u00f3n, porque un minuto a tu lado es lo m\u00e1s hermoso que existe que un minuto sin ti";
-            frases[36] = "T\u00fa me diste mil razones para sonre\u00edr, ahora yo quiero darte mil razones para que seas feliz porque, para m\u00ed, t\u00fa eres un principio del que nunca querr\u00e9 conocer el final";
-            frases[37] = "Me gustar\u00eda tener 10 vidas para poder poder amarte 10 veces";
-            frases[38] = "Que sepas que mi sonrisa te tiene a ti como motivo";
-            frases[39] = "Mi vida t\u00fa haces que florezca el amor en cada detalle";
-
-            frases[40] = "La gente se combina, pero t\u00fa me completas";
-            frases[41] = "Mi felicidad no tiene precio, tiene tu nombre";
-            frases[42] = "El sue\u00f1o es mío, pero la \u00fanica persona de hacerlo realidad eres t\u00fa";
-            frases[43] = "No s\u00e9 si existe la felicidad perfecta, pero a tu lado soy perfectamente feliz";
-            frases[44] = "El mundo tiene 5 oc\u00e9anos, 57 mares, 5 continentes, 510 millones de km² de tierra y a\u00fan así conseguí encontrar alguien tan especial como t\u00fa";
-
-            frases[45] = "Te amo porqu\u00e9 se que a tu lado vivir\u00e9 los mejores momentos de mi vida";
-            frases[46] = "Que todo en la vida brille como tus ojos, sea tan maravilloso como tu coraz\u00f3n y tan bonito como t\u00fa";
-            frases[47] = "A tu lado aprend\u00ed que entre sue\u00f1os y realidad existe un espacio llamado felicidad, y que para que mi felicidad se vuelva realidad necesito estar a tu lado";
-            frases[48] = "Amor es una palabra que significa mucho, aunque no expresa todo lo que siento por ti";
-            frases[49] = "La vida sonr\u00ede cuando t\u00fa apareces";
-
-            aleatorio = Math.floor(Math.random() * 50);
-
-            return frases[aleatorio];
-
-        }
-        onload = function () {
-            document.getElementById('algo').innerHTML = frases_alea();
-            setInterval(function () { document.getElementById('algo').innerHTML = frases_alea(); }, 8000)
-        }
-    </script>
 </head>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-image: url('y.gif');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    .contenedor {
-        text-align: center;
-        transform: skew(-15deg);
-        font-size: 28px;
-        color: white;
-        background-color: rgba(206, 108, 255, 0.8);
-        padding: 20px;
-        border-radius: 5px;
-        max-width: 80%;
-        width: auto;
-    }
-
-    .contenedor p {
-        margin: 0;
-        font-size: 1.5rem;
-    }
-</style>
 
 <body>
-    <div id="algo" class="contenedor"></div>
-</body>
+  <div class="tpl-snow">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
+
+  <div class="contenedor">
+
+      <h1 style="color: white; margin-top: 30px; text-align: center;">💕¡FELIZ NAVIDAD!💕</h1>
+
+      <p style="color: white; text-align: center; margin-top: 20px;">
+        Este año ha sido increíble, y mucho de eso se lo debo a ti mi vida 😘. 
+        Contigo, cada día ha sido una aventura llena de amor y complicidad 🏔️.<br>
+        Siempre estaré ahí para ti apoyandote 🥰.<br>
+        No hay palabras para expresar lo emocionado que estoy por los años que vendrán y las metas que lograremos cumplir 🏆.<br>
+        Aquí estoy, listo para seguir escribiendo nuestra historia juntos 💌💌💌.<br>
+        Que tengas una increible navidad junto a toda tu familia mi niña, que este llena de risas y momentos inolvidables 🎄📷🥰.<br>
+        ❤️❤️❤️ TE AMO ❤️❤️❤️
+      </p>
+    
+    
+    <img src="a.png" alt="arbol de navidad" class="arbolito" />
+  </div>
+
+  <div class="contenedor-regalos">
+    <div class="regalo">
+      <div class="tapa">
+        <span></span>
+      </div>
+      <div class="promo">
+        <p>Más</p>
+        <h2>Convivencias 🥰</h2>
+      </div>
+      <div class="caja">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="regalo">
+      <div class="tapa">
+        <span></span>
+      </div>
+      <div class="promo">
+        <p>Más</p>
+        <h2>Viajes ✈️</h2>
+      </div>
+      <div class="caja">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="regalo">
+      <div class="tapa">
+        <span></span>
+      </div>
+      <div class="promo">
+        <p>Más</p>
+        <h2>Experiencias 📷</h2>
+      </div>
+      <div class="caja">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
+</body>
 </html>
